@@ -24,13 +24,13 @@
 
         <form id="bookForm">
             <label for="bookName">Book name:</label>
-            <input type="text" name="bookName" id="bookName"> <br>
+            <input type="text" name="bookName" id="bookName" required> <br>
 
             <label for="bookAuthor">Book author:</label>
-            <input type="text" name="bookAuthor" id="bookAuthor"> <br>
+            <input type="text" name="bookAuthor" id="bookAuthor" required> <br>
 
             <label for="bookPages">Book pages:</label>
-            <input type="text" name="bookPages" id="bookPages"> <br>
+            <input type="number" name="bookPages" id="bookPages" required pattern="[0-9]*"> <br>
 
             <label for="bookRead">Read the book?</label>
             <input type="checkbox" name="bookRead" id="bookRead"> <br>
