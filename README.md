@@ -1,0 +1,2 @@
+# TheBeluga-sLibrary
+Simple library
