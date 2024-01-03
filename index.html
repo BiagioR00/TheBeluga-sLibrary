@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="default.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>The Beluga's Library</h1>
+      <img src="beluga.svg" alt="" />
+    </header>
+
+    <button id="openModal">Add new book</button>
+
+    <div id="container"></div>
+
+
+    <dialog>
+
+        <p>Add a new book!</p>
+
+        <form id="bookForm">
+            <label for="bookName">Book name:</label>
+            <input type="text" name="bookName" id="bookName"> <br>
+
+            <label for="bookAuthor">Book author:</label>
+            <input type="text" name="bookAuthor" id="bookAuthor"> <br>
+
+            <label for="bookPages">Book pages:</label>
+            <input type="text" name="bookPages" id="bookPages"> <br>
+
+            <label for="bookRead">Read the book?</label>
+            <input type="checkbox" name="bookRead" id="bookRead"> <br>
+
+            <button type="submit" id="closeModal">Submit</button>
+
+        </form>
+
+    </dialog>
+
+  </body>
+</html>
