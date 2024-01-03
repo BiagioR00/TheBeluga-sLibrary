@@ -1,6 +1,5 @@
 const dialog = document.querySelector("dialog");
 const showButton = document.querySelector("#openModal");
-const closeButton = document.querySelector("#closeModal");
 const container = document.querySelector("#container");
 const myLibrary = [];
 
