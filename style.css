@@ -24,3 +24,40 @@ header {
 img {
   width: 150px;
 }
+
+#openModal {
+  padding: 10px 20px;
+  background-color: peachpuff;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+#openModal:hover {
+  background-color: #ffa07a;
+}
+
+
+dialog {
+  padding: 100px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#bookForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#closeModal {
+  background-color: peachpuff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#closeModal:hover {
+  background-color: #ffa07a;
+}
